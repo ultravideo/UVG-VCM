@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use UVG-VCM, please cite the paper below."
+type: dataset
+title: "UVG-VCM: Benchmarking Dataset for Machine-Oriented Visual Data Compression"
+authors:
+  - family-names: Partanen
+    given-names: Tero
+  - family-names: Anttila
+    given-names: Miro
+  - family-names: Kortelahti
+    given-names: Rudolf
+  - family-names: Gautier
+    given-names: Guillaume
+  - family-names: Mercat
+    given-names: Alexandre
+  - family-names: Vanne
+    given-names: Jarno
+license: CC-BY-4.0
+url: "https://ultravideo.fi/UVG-VCM/"
+repository-code: "https://github.com/ultravideo/UVG-VCM"
+preferred-citation:
+  type: conference-paper
+  title: "UVG-VCM: Benchmarking Dataset for Machine-Oriented Visual Data Compression"
+  authors:
+    - family-names: Partanen
+      given-names: Tero
+    - family-names: Anttila
+      given-names: Miro
+    - family-names: Kortelahti
+      given-names: Rudolf
+    - family-names: Gautier
+      given-names: Guillaume
+    - family-names: Mercat
+      given-names: Alexandre
+    - family-names: Vanne
+      given-names: Jarno
+  collection-title: "2026 18th International Conference on Quality of Multimedia Experience (QoMEX)"
+  conference:
+    name: "2026 18th International Conference on Quality of Multimedia Experience (QoMEX)"
+    city: Cardiff
+    country: GB
+  publisher:
+    name: IEEE
+  isbn: "979-8-3195-0032-8"
+  doi: "10.1109/QoMEX69967.2026.11618360"
+  month: 6
+  year: 2026

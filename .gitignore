@@ -1,0 +1,24 @@
+# Dataset files: download from https://ultravideo.fi/UVG-VCM/, do not commit
+*.yuv
+*.y4m
+*.mp4
+
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

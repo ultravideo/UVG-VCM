@@ -1,0 +1,21 @@
+sequence,width,height,chroma_format,bit_depth,fps,frames,duration_s,capture_source,use_case,environment,camera_motion,tasks,det_instances_min,det_instances_max,det_instances_avg
+HighwayView,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Surveillance,Outdoor,Static,DET;TRK;INS;SPS,13,22,18
+FloorballTrain,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Sports analytics,Indoor,Static,DET;TRK;INS,12,30,23
+FloorballGame,3840,2160,YUV444,16,60,420,7.0,Blackmagic Micro Studio 4K G2,Sports analytics,Indoor,Panning,DET;TRK;INS;HPE,5,9,7
+SpotRobot,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Robot,Indoor,Moving,DET;TRK,9,15,12
+VolleyballGame,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Sports analytics,Indoor,Static,DET;TRK;INS,17,19,19
+WinterDrive,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Autonomous driving,Outdoor,Moving,DET;TRK;INS,4,11,8
+HighwayDrive,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Autonomous driving,Outdoor,Moving,DET;TRK;INS;SPS,4,10,7
+TrafficLights,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Autonomous driving,Outdoor,Moving,DET;TRK;INS,9,28,21
+OfficeWalk,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Bodycam/robot,Indoor,Moving,DET;TRK;INS,4,22,14
+BoatReverse,3840,2160,YUV444,16,60,300,5.0,Blackmagic Micro Studio 4K G2,Autonomous sailing,Outdoor,Moving,DET;TRK;INS,5,8,6
+CampusView,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Surveillance,Outdoor,Panning,DET;TRK,16,26,22
+JobFair,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Surveillance,Indoor,Static,DET;TRK,34,42,39
+CarPark,3840,2160,YUV444,16,60,600,10.0,Blackmagic Micro Studio 4K G2,Parking management,Outdoor,Static,LPR,7,14,10
+ParkingGarage,3840,2160,YUV444,16,60,1140,19.0,Blackmagic Micro Studio 4K G2,Parking management,Both,Static,LPR,0,7,7
+KartingTime,3840,2160,YUV444,16,60,70,1.17,Blackmagic Micro Studio 4K G2,Sports analytics,Outdoor,Static,BIB,4,20,13
+UnderPark,1920,1080,YUV422,8,30,300,10.0,ZED 2i,Autonomous driving,Indoor,Moving,DEP,,,
+AuditoriumWalk,1920,1080,YUV422,8,30,300,10.0,ZED 2i,Bodycam/robot,Indoor,Moving,DEP,,,
+SyntheticAerial,3840,2160,YUV444,8,60,600,10.0,CiThruS2,Aerial (synthetic),Outdoor,Moving,OR-DET,81,96,88
+SyntheticDrone,3840,2160,YUV444,8,60,600,10.0,CiThruS2,Drone (synthetic),Outdoor,Moving,DET;TRK;INS,35,48,44
+SyntheticCity,3840,2160,YUV444,8,60,600,10.0,CiThruS2,Surveillance (synthetic),Outdoor,Static,DET;TRK;INS,46,54,50
