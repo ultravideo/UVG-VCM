@@ -77,8 +77,7 @@ Class labels follow the COCO taxonomy (detection, tracking, segmentation, pose) 
 
 ## Benchmarking
 
-<!-- TODO: link to testbench repo -->
-A complete testbench for running codec evaluations on UVG-VCM is available in a separate repository: **Coming soon**.
+A complete testbench for running codec evaluations on UVG-VCM is available in a separate repository: [uvgVCMtester](https://github.com/ultravideo/uvgVCMtester).
 
 The baseline results in the paper follow JVET CTC-style procedures: sequences were coded with the VVC Test Model (VTM v23.3) in random access configuration, QP 24 to 56, and evaluated on object detection with a Faster R-CNN X101-FPN model.
 
