@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convert a CVAT "CVAT for video 1.1" XML export into the testbench annotation format.
 
-Output:
+Output (see docs/annotation-formats.md):
   <out>/<name>_annotations.json   boxes (+ polygons, track_id, mask_color), normalised to [0, 1]
   <out>/<name>_masks/mask_0001.png ...   one RGB mask per frame (only if the XML has polygons)
 
@@ -54,7 +54,7 @@ class ConversionError(Exception):
 # ----------------------------------------------------------------------------- labels and colours
 
 def coco_label_map() -> dict[str, int]:
-    sys.path.insert(0, str(PROJECT_ROOT / "task_models"))
+    sys.path.insert(0, str(PROJECT_ROOT))
     from labels import COCO_label_map
     return dict(COCO_label_map)
 
@@ -83,7 +83,7 @@ def resolve_labels(cvat_labels: set[str], label_map_file: Path | None) -> dict[s
         else:
             bad.append(f"{lab!r} -> {target!r}")
     if bad:
-        raise ConversionError(f"labels not in task_models/labels.py: {bad}; use COCO names or --label-map")
+        raise ConversionError(f"labels not in labels.py: {bad}; use COCO names or --label-map")
     return out
 
 
