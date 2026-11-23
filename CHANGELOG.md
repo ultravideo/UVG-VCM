@@ -2,9 +2,9 @@
 
 Changes to the UVG-VCM dataset annotations, newest first. The video sequences are not versioned, only the annotations of each sequence are. Annotation files carry a `"version"` key in the JSON (see [`docs/annotation-formats.md`](docs/annotation-formats.md)). Sequences that are not listed in an entry are unchanged.
 
-## 2026-11-16 Annotation updates
+## 2026-11-23 Annotation updates
 
-All updated annotations are now v1.1.
+All updated annotations are now > v1.1.
 
 - **CampusView** → v1.1
   - Removed a duplicate box from one frame.
@@ -30,6 +30,8 @@ All updated annotations are now v1.1.
 - **KartingTime** → v1.1
   - Renamed `KartingTime_annotations.json` to `KartingTime_bib_annotations.json`.
   - Changed items from plain arrays to objects with named keys.
+- **OfficeWalk** → v1.1
+  - Refined instance masks.
 - **ParkingGarage** → v1.1
   - Renamed `ParkingGarage_annotations.json` to `ParkingGarage_lpr_annotations.json`.
   - Changed items from plain arrays to objects with named keys.
@@ -44,7 +46,10 @@ All updated annotations are now v1.1.
   - Removed zero-size objects.
   - Fixed colour pairings between JSON and masks.
   - Closed the holes in bicycle masks.
-- **WinterDrive** → v1.1
+- **TrafficLights** → v1.1
+  - Refined instance masks.
+  - Refined bounding boxes.
+- **WinterDrive** → v1.12
   - Refined instance masks.
   - Refined a few boxes.
 

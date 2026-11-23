@@ -50,7 +50,7 @@ Click a sequence name column for details in [`sequences.csv`](sequences.csv), wh
 | KartingTime | 3840×2160 | YUV444, 16-bit | 60 | 70 | Sports analytics | Outdoor | Static | BIB |
 | UnderPark | 1920×1080 | YUV422, 8-bit | 30 | 300 | Autonomous driving | Indoor | Moving | DEP |
 | AuditoriumWalk | 1920×1080 | YUV422, 8-bit | 30 | 300 | Bodycam/robot | Indoor | Moving | DEP |
-| SyntheticAerial | 3840×2160 | YUV444, 8-bit | 60 | 600 | Aerial (synthetic) | Outdoor | Moving | OR-DET |
+| SyntheticAerial | 3840×2160 | YUV444, 8-bit | 60 | 300 | Aerial (synthetic) | Outdoor | Moving | OR-DET |
 | SyntheticDrone | 3840×2160 | YUV444, 8-bit | 60 | 600 | Drone (synthetic) | Outdoor | Moving | DET, TRK, INS |
 | SyntheticCity | 3840×2160 | YUV444, 8-bit | 60 | 600 | Surveillance (synthetic) | Outdoor | Static | DET, TRK, INS |
 
