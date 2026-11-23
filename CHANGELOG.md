@@ -4,7 +4,7 @@ Changes to the UVG-VCM dataset annotations, newest first. The video sequences ar
 
 ## 2026-11-23 Annotation updates
 
-All updated annotations are now > v1.1.
+All updated annotations are now  ≥v1.1.
 
 - **CampusView** → v1.1
   - Removed a duplicate box from one frame.
